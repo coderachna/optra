@@ -5,7 +5,7 @@ def show_dashboard():
     st.header("📈 Placement Dashboard")
 
     # Load data
-    df = pd.read_csv("Optra_Prototype/placements.csv")
+    df = pd.read_csv("placements.csv")
 
     st.subheader("Placement Data")
     st.dataframe(df)
